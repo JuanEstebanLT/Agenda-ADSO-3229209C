@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Se creo readme para la rama
+=======
 # Mini-Sitio v3
 
 Proyecto académico correspondiente a la Semana 3 del Proyecto Integrador (Control de Versiones).
@@ -29,3 +32,4 @@ El objetivo es aplicar buenas prácticas de gestión de proyectos usando:
 
 ```bash
 git clone https://github.com/TU-USUARIO/NOMBRE-DEL-REPO.git
+>>>>>>> 7bb1b6604a24c15b0f259a80627d28434f663f94
