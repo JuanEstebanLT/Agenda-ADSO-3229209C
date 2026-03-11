@@ -13,19 +13,48 @@ function ProfileForm({ perfil, setPerfil }) {
 
   return (
     <form className="form">
-      <input name="nombre" value={perfil.nombre} onChange={handleChange} placeholder="Nombre" />
-      <input name="rol" value={perfil.rol} onChange={handleChange} placeholder="Rol" />
-      <textarea name="descripcion" value={perfil.descripcion} onChange={handleChange} />
-      <input name="imagen" value={perfil.imagen} onChange={handleChange} placeholder="URL imagen" />
+      <input
+        name="nombre"
+        value={perfil.nombre}
+        onChange={handleChange}
+        placeholder="Nombre"
+      />
+      <input
+        name="rol"
+        value={perfil.rol}
+        onChange={handleChange}
+        placeholder="Rol"
+      />
+      <textarea
+        name="descripcion"
+        value={perfil.descripcion}
+        onChange={handleChange}
+      />
+      <input
+        name="imagen"
+        value={perfil.imagen}
+        onChange={handleChange}
+        placeholder="URL imagen"
+      />
 
       <label>
         Color primario
-        <input type="color" name="colorPrimario" value={perfil.colorPrimario} onChange={handleChange} />
+        <input
+          type="color"
+          name="colorPrimario"
+          value={perfil.colorPrimario}
+          onChange={handleChange}
+        />
       </label>
 
       <label>
         Color secundario
-        <input type="color" name="colorSecundario" value={perfil.colorSecundario} onChange={handleChange} />
+        <input
+          type="color"
+          name="colorSecundario"
+          value={perfil.colorSecundario}
+          onChange={handleChange}
+        />
       </label>
 
       <h4>Redes</h4>
