@@ -2,9 +2,9 @@ name: CI
 
 on:
   pull_request:
-    branches: [main]
+    branches: [ main ]
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build:
@@ -33,4 +33,3 @@ jobs:
           else
             echo "No tests"
           fi
-
