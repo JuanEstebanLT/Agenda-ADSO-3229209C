@@ -2,7 +2,10 @@ function ProfilePreview({ perfil }) {
   return (
     <div
       className="preview"
-      style={{ backgroundColor: perfil.colorPrimario, color: perfil.colorSecundario }}
+      style={{
+        backgroundColor: perfil.colorPrimario,
+        color: perfil.colorSecundario,
+      }}
     >
       <img src={perfil.imagen} alt="perfil" />
       <h2>{perfil.nombre}</h2>
@@ -11,8 +14,8 @@ function ProfilePreview({ perfil }) {
 
       <div className="redes">
         {perfil.redes
-          .filter(red => red.activo)
-          .map(red => (
+          .filter((red) => red.activo)
+          .map((red) => (
             <span key={red.nombre}>{red.nombre}</span>
           ))}
       </div>
